@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CaCiNo - Cappucino Cincau Nano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="F4SLIFOOD – premium artisan breads, cakes, and pastries baked fresh daily for your family and events.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader-content">
+      <img src="favicon.png" alt="CACINO Logo" class="logo-loader">
+      <p class="loading-text">Menunggu Mincau Siap ...</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><img src="favicon.png" alt="Logo AD"></span>
+        <span class="logo-text">CACINO</span>
+      </a>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="checkout.html" class="nav-cta">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero reveal">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 style="font-family: 'Roboto Slab', serif; font-weight: 400;">Cappuccino Cincau Nano, sehat dan menyegarkan, solusi minuman manis tanpa worry</h1>
+          <p>CACINO menghadirkan minuman *Cappuccino Cincau berbasis teknologi nano* yang mengutamakan kualitas bahan, proses higienis, dan rasa yang konsisten.</p>
+          <p>Perpaduan *cappuccino creamy dan cincau segar* memberikan sensasi minuman yang sehet, menyegarkan, dan siap menemani aktivitas Anda setiap hari.</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn primary-btn">Browse Menu</a>
+            <a href="#about" class="btn ghost-btn">Tentang CACINO</a>
+          </div>
+          <div class="hero-meta">
+            <span>Mon–Fri · 05.00 – 05.00 PM</span>
+            <span>Bogor, Jawa Barat</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Placeholder: royalty-free bakery hero image -->
+          <div class="hero-image-frame">
+            <img src="produk.png" alt="Fresh artisan breads and pastries on wooden table">
+          </div>
+          <div class="hero-badge">
+            <span class="badge-title">Best Price </span>
+            <span class="badge-title">"Hemat X-Tra"</span>
+            <span class="badge-subtitle">4 botol 25 k, grab it fast!✨</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product catalog -->
+    <section id="products" class="section products reveal">
+      <div class="container">
+        <header class="section-header">
+          <h2>Paket CACINO</h2>
+          <p style="text-align: center;">Pilihan Tepat Untuk Menikmati Kesegaran Berbuka Puasa Yang Sebenarnya</p>
+        </header>
+
+        <!-- Hidden template for JS & cross-page data -->
+        <script>
+          window.BAKERY_PRODUCTS = [
+            { id: "Single", name: "Single CACINO", price: 8000, image: "single.jpeg" },
+            { id: "Double", name: "CACINO Hemat", price: 15000, image: "double.jpeg" },
+            { id: "Tetra", name: "CACINO Hemat X-Tra", price: 25000, image: "quadra.jpeg" }
+            // { id: "SOURDOUGH_LOAF", name: "Sourdough Country Loaf", price: 45000, image: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg" },
+            // { id: "CROISSANT_BOX", name: "Butter Croissant Box (6 pcs)", price: 75000, image: "https://images.pexels.com/photos/2135/food-bread-toast-sandwich.jpg" },
+            // { id: "CHOCOLATE_CAKE", name: "Dark Chocolate Ganache Cake", price: 185000, image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" },
+            // { id: "CINNAMON_ROLLS", name: "Cinnamon Rolls Tray (9 pcs)", price: 99000, image: "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg" },
+            // { id: "CHEESE_TART", name: "Baked Cheese Tart Box (4 pcs)", price: 88000, image: "https://images.pexels.com/photos/1026124/pexels-photo-1026124.jpeg" },
+            // { id: "COOKIES_JAR", name: "Sea Salt Choc Chip Cookies Jar", price: 65000, image: "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg" },
+            // { id: "COOKIES_JAR", name: "Sea Salt Choc Chip Cookies Jar", price: 65000, image: "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg" }
+          ];
+        </script>
+
+        <div class="product-grid" id="product-grid">
+          <!-- Cards rendered by JS from window.BAKERY_PRODUCTS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about reveal">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 style="color: #ffffff;">Tentang CACINO</h2>
+          <p>Berawal dari semangat inovasi dan keinginan menghadirkan minuman yang berbeda, CACINO memperkenalkan
+Cappuccino Cincau Nano*, perpaduan sempurna antara cita rasa cappuccino yang creamy dengan kesegaran cincau alami. Produk ini tidak hanya menawarkan rasa yang nikmat, tetapi juga menghadirkan inovasi melalui pemanfaatan teknologi nano untuk meningkatkan kualitas dan pengalaman minum yang lebih baik.</p>
+          <p>Kami percaya bahwa minuman modern harus mampu menghadirkan rasa, kualitas, dan manfaat dalam satu produk. Oleh karena itu, setiap Cappuccino Cincau dibuat menggunakan bahan pilihan yang aman dan berkualitas, diproses secara higienis, serta diformulasikan dengan pendekatan teknologi nano agar teksturnya lebih halus, rasa lebih merata, meningkatkan bioavailabilitas, dan memberikan sensasi minum yang lebih lembut dan menyegarkan.</p>
+          <p>Perpaduan cappuccino yang kaya rasa dengan cincau yang dikenal menyegarkan menjadikan produk ini cocok dinikmati oleh berbagai kalangan. Cappuccino Cincau Nano hadir sebagai pilihan minuman kekinian yang tidak hanya lezat, tetapi juga memberikan sentuhan inovasi dan nilai kesehatan dalam setiap tegukan.</p>
+          <p>Dengan komitmen pada kualitas dan inovasi, CAINO terus berupaya menghadirkan produk minuman yang mengikuti perkembangan teknologi pangan serta kebutuhan konsumen masa kini. Kami ingin menjadikan Cappuccino Cincau Nano sebagai minuman favorit yang mampu menemani berbagai aktivitas, mulai dari waktu santai hingga momen berkumpul bersama teman dan keluarga.</p>
+          <p>Keunggulan CACINO:</p>
+          <ul class="about-list">
+            <li>Perpaduan cappuccino creamy dan cincau segar</li>
+            <li>Tekstur lebih halus berkat teknologi nano</li>
+            <li>Diproses secara higienis dan berkualitas</li>
+            <li>Sensasi minuman kekinian yang menyegarkan</li>
+            <li>Cocok dinikmati kapan saja</li>
+          </ul>
+          <p>Bagi kami, kepuasan pelanggan adalah inspirasi utama untuk terus berinovasi. Setiap produk yang kami hadirkan merupakan bentuk komitmen untuk memberikan minuman yang lezat, modern, dan berkualitas bagi masyarakat.</p>
+          <p>✨ *Cappuccino Cincau Nano — Inovasi Rasa, Kesegaran dalam Setiap Tegukan.*</p>
+        </div>
+        <div class="about-image">
+          <img src="poster.jpeg" alt="Baker preparing artisan bread dough">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / footer band -->
+    <section id="contact" class="section contact reveal">
+      <div class="container contact-inner">
+        <div class="contact-block">
+          <h3>Alamat Mincau</h3>
+          <p>
+          Lokasi Produksi:
+            <a href="https://maps.app.goo.gl/UBVxipQkKVjZ8CFP8?g_st=aw"
+               class="map-link"
+               target="_blank"
+               rel="noopener">
+               Ara Kost Putri, Jalan Pangeran Sogiri No. 294, RT/RW 001/011, Tanah Baru, Bogor Utara
+            </a>
+          </p>
+          <p>Mon–Fri · 05.00 – 05.00 PM</p>
+        </div>
+        <div class="contact-block">
+          <h3>Hubungi Mincau</h3>
+          <p>WhatsApp: <a class="wa-link" href="https://wa.me/62895385224806" target="_blank" rel="noopener">0895 3852 24806</a></p>
+          <p>Email: <a href="mailto:hanakireilm@gmail.com" class="email-link">hanakireilm@gmail.com</a></p>
+
+        </div>
+        <div class="contact-block">
+          <h3>Pemesanan</h3>
+          <p>Ayo klik "start order" agar mincau bisa membantu menyegarkan aktivitas harian mu</p>
+          <a href="#products" class="btn secondary-btn">Start Order</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 CACINO · UMKM Drink & Healthy</p>
+      <!-- <p class="footer-meta">Terima kasih telah mendukung F4SLIFOOD. Setiap pembelian Anda adalah bagian dari perjalanan kami untuk terus berkembang 💛</p> -->
+      <div class="social-icons">
+
+        <a href="https://wa.me/62895385224806" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://cdn-icons-png.flaticon.com/512/733/733585.png" 
+            alt="WhatsApp CACINO">
+        </a>
+
+        <a href="https://instagram.com/cacino.official" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" 
+            alt="Instagram CACINO">
+        </a>
+
+        <a href="https://www.tiktok.com/@cacino.official?_r=1&_t=ZS-94hfuEkAhCn" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" 
+            alt="TikTok CACINO">
+        </a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+
+      const target = document.querySelector(this.getAttribute("href"));
+
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    });
+  });
+  </script>
+  <script>
+  const reveals = document.querySelectorAll(".reveal");
+
+  window.addEventListener("scroll", () => {
+    reveals.forEach((element) => {
+      const windowHeight = window.innerHeight;
+      const elementTop = element.getBoundingClientRect().top;
+      const revealPoint = 120;
+
+      if (elementTop < windowHeight - revealPoint) {
+        element.classList.add("active");
+      }
+    });
+  });
+  </script>
+  <script>
+  window.addEventListener("scroll", () => {
+    const img = document.querySelector(".about-image img");
+    const scrollY = window.scrollY;
+
+    img.style.transform = `translateY(${scrollY * 0.05}px)`;
+  });
+  </script>
+  <div class="scroll-bar"></div>
+  <script>
+  window.addEventListener("load", () => {
+
+    const loader = document.getElementById("preloader");
+
+    setTimeout(() => {
+
+      loader.style.opacity = "0";
+      loader.style.transition = "opacity 0.6s ease";
+
+      setTimeout(()=>{
+        loader.style.display = "none";
+      },600);
+
+    }, 5000);
+
+  });
+  </script>
+</body>
+</html>
+
+
+
