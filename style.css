@@ -31,7 +31,7 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  color: var(--color-text);
+  color: #4a2e1f;
   background: radial-gradient(circle at top left, #ffe3c7 0, #fff9f3 40%, #ffffff 100%);
   -webkit-font-smoothing: antialiased;
 }
